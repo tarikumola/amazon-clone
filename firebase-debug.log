@@ -1,0 +1,41 @@
+[debug] [2022-03-26T04:46:21.483Z] ----------------------------------------------------------------------
+[debug] [2022-03-26T04:46:21.486Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tare\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-03-26T04:46:21.487Z] CLI Version:   10.5.0
+[debug] [2022-03-26T04:46:21.487Z] Platform:      win32
+[debug] [2022-03-26T04:46:21.488Z] Node Version:  v16.14.0
+[debug] [2022-03-26T04:46:21.616Z] Time:          Sat Mar 26 2022 07:46:21 GMT+0300 (East Africa Time)
+[debug] [2022-03-26T04:46:21.617Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-26T04:46:22.232Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-26T04:46:22.233Z] > authorizing via signed-in user (tarmola19@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project clone-by-tariku. This may result in unexpected behavior. 
+[debug] [2022-03-26T04:46:27.011Z] [hub] writing locator at C:\Users\Tare\AppData\Local\Temp\hub-clone-by-tariku.json
+[debug] [2022-03-26T04:46:27.469Z] > refreshing access token with scopes: []
+[debug] [2022-03-26T04:46:27.470Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-26T04:46:28.761Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Sat, 26 Mar 2022 04:46:28 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-26T04:46:29.020Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-by-tariku/sites 
+[debug] [2022-03-26T04:46:31.270Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-by-tariku/sites 200
+[debug] [2022-03-26T04:46:31.271Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-by-tariku/sites {"sites":[{"name":"projects/319747881627/sites/clone-by-tariku","defaultUrl":"https://clone-by-tariku.web.app","appId":"1:319747881627:web:3f375fe0056fd807b6643e","type":"DEFAULT_SITE"}]}
+[debug] [2022-03-26T04:46:31.271Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-by-tariku/webApps/1:319747881627:web:3f375fe0056fd807b6643e/config [none]
+[debug] [2022-03-26T04:46:32.734Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-by-tariku/webApps/1:319747881627:web:3f375fe0056fd807b6643e/config 200
+[debug] [2022-03-26T04:46:32.735Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-by-tariku/webApps/1:319747881627:web:3f375fe0056fd807b6643e/config {"projectId":"clone-by-tariku","appId":"1:319747881627:web:3f375fe0056fd807b6643e","storageBucket":"clone-by-tariku.appspot.com","apiKey":"AIzaSyBGhK42IoY2IWN9BGQuJxoPycC7ljHXL4w","authDomain":"clone-by-tariku.firebaseapp.com","messagingSenderId":"319747881627","measurementId":"G-Q7FRFR46B1"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
